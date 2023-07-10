@@ -4,8 +4,6 @@ import 'package:tok_tik_flutter_app/domain/entities/video_post.dart';
 import 'package:tok_tik_flutter_app/infrastructure/models/local_video_posts.dart';
 
 class DiscoverProvider extends ChangeNotifier {
-  //TODO: Repository, DataSourse
-
   bool initialLoding = true;
   List<VideoPost> videos = [];
 
